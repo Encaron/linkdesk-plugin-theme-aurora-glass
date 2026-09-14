@@ -1,16 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- [可选] theme-aurora-glass 身份图升级稿「极光在玻璃后面」
+       为什么要动它：现存 icon.svg 只有一块渐变，**没有任何识别符**——市场里它和「统一默认彩块」
+       几乎分不出来，等于没有脸。本稿保留它原有的极光渐变（极光色 3 档，此处是家族「双档渐变」的
+       唯一合理例外：极光本来就是多色的），前面压一块磨砂玻璃面板 + 一道镜面斜光 = 「glass」二字。
+       家族：40×40 圆角方载体 + 白玻璃罩 + 发丝光边（Type-2 彩色身份图） -->
   <defs>
-    <linearGradient id="iconBg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="agBg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#4338CA"/>
       <stop offset="0.5" stop-color="#7C3AED"/>
       <stop offset="1" stop-color="#EC4899"/>
     </linearGradient>
-    <linearGradient id="iconGlass" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    <linearGradient id="agSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.03"/>
     </linearGradient>
+    <clipPath id="agClip">
+      <rect x="4" y="4" width="40" height="40" rx="10"/>
+    </clipPath>
   </defs>
-  <rect x="4" y="4" width="40" height="40" rx="10" fill="url(#iconBg)"/>
-  <rect x="4" y="4" width="40" height="40" rx="10" fill="url(#iconGlass)"/>
-  <rect x="4" y="4" width="40" height="40" rx="10" fill="none" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="1"/>
+
+  <g clip-path="url(#agClip)">
+    <rect x="4" y="4" width="40" height="40" fill="url(#agBg)"/>
+
+    <!-- 极光带（在玻璃后面流动） -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M4 30 C11 21.5 15.5 33.5 22 26 C28 19 33 29.5 44 21.5" stroke="#7DD3FC" stroke-width="3.4" opacity="0.55"/>
+      <path d="M4 36.5 C12 30 17 39.5 24 32.5 C30 26.5 36 35 44 29" stroke="#F0ABFC" stroke-width="2.6" opacity="0.45"/>
+    </g>
+
+    <!-- 磨砂玻璃面板 -->
+    <rect x="12.6" y="13.4" width="22.8" height="21.2" rx="5" fill="#FFFFFF" opacity="0.18"/>
+    <rect x="12.6" y="13.4" width="22.8" height="21.2" rx="5" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.2"/>
+    <!-- 镜面斜光 -->
+    <path d="M16.2 31.6 L22.6 16.6" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.7" stroke-linecap="round"/>
+    <path d="M19.6 31.6 L26 16.6" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 白玻璃罩 -->
+    <rect x="4" y="4" width="40" height="40" fill="url(#agSheen)"/>
+  </g>
+
+  <rect x="4.5" y="4.5" width="39" height="39" rx="9.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.28"/>
 </svg>
