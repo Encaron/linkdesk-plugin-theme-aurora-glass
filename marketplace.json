@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-14T17:30:26.357Z",
+  "updatedAt": "2026-09-14T17:50:35.918Z",
   "plugins": [
     {
       "id": "theme-aurora-glass",
       "name": "极光玻璃",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "description": "示例玻璃主题——Aurora UI 极光夜空 + 液态玻璃表面 + 全窗极光背景图（#50.6-#50.11 壳机制第一个真实消费者）",
       "author": {
         "name": "LinkDesk"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-aurora-glass/v1.0.5/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-aurora-glass/v1.0.6/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-aurora-glass/v1.0.5/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-aurora-glass/releases/download/v1.0.5/theme-aurora-glass.linkdesk-plugin",
-      "size": 9571,
-      "publishedAt": "2026-09-14T17:30:26.357Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-aurora-glass/v1.0.6/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-aurora-glass/releases/download/v1.0.6/theme-aurora-glass.linkdesk-plugin",
+      "size": 10576,
+      "publishedAt": "2026-09-14T17:50:35.918Z",
       "versions": [
+        {
+          "version": "1.0.6",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-aurora-glass/releases/download/v1.0.6/theme-aurora-glass.linkdesk-plugin",
+          "publishedAt": "2026-09-14T17:50:35.918Z",
+          "changelog": "- **替换**市场身份图 `resources/icon.svg`（Type-2 彩色身份图，E6#68a）——原 `icon.svg` 只有一块渐变、**没有任何识别符**——市场里跟「统一默认彩块」几乎分不出来，等于没脸。本次保留它原有的极光渐变（3 档），前面压一块磨砂玻璃面板 + 一道镜面斜光，把「glass」说出来"
+        },
         {
           "version": "1.0.5",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-aurora-glass/releases/download/v1.0.5/theme-aurora-glass.linkdesk-plugin",
