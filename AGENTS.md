@@ -1,7 +1,7 @@
 # 极光玻璃（theme-aurora-glass）——LinkDesk 插件仓
 
 > **本文件是给在这个仓里干活的 AI 看的**（Claude Code / Codex / Cursor / …）。人看 `README.md`。
-> 插件身份的唯一来源 = `plugin.json` 顶层的 `pluginId`（本仓：`theme-aurora-glass`）。当前版本 `1.0.7`。
+> 插件身份的唯一来源 = `plugin.json` 顶层的 `pluginId`（本仓：`theme-aurora-glass`）。当前版本 `1.0.8`。
 
 ## 1. 这是什么
 
@@ -30,7 +30,6 @@
 
 **本仓没有 `src/`** —— 它是「数据插件」：能力全在 `plugin.json` 的声明 ＋ 数据文件里。
 
-**本仓没有 `i18n/`** —— 文案 key 就是中文原文，英文由语言包插件（`lang-defaults`）提供。
 
 - 资源在 `resources/`：`aurora-bg.svg` 是**全窗背景图**（本体），另有 `cover.svg` / `icon.svg`。
 - 配方顶层键用 `appearance`（与用 `type` 的老主题不同）。
