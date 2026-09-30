@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/theme.schema.json",
   "id": "theme-aurora-glass.aurora-glass",
-  "name": "极光玻璃 Aurora Glass",
+  "name": "极光玻璃",
   "type": "dark",
   "appearance": {
     "glass": {
