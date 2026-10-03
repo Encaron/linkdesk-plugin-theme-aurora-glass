@@ -41,7 +41,6 @@
         "accent-hover": "#8B5CF6",
         "border": "rgba(255, 255, 255, 0.08)",
         "separator": "rgba(255, 255, 255, 0.06)",
-        "icon-active": "#A78BFA",
         "icon-inactive": "#6B77A8",
         "toggle-knob": "#7C3AED",
         "toggle-knob-on": "#FFFFFF",
