@@ -1,26 +1,32 @@
 {
   "version": "1",
-  "updatedAt": "2026-11-22T16:02:12.412Z",
+  "updatedAt": "2026-11-22T19:11:52.470Z",
   "plugins": [
     {
       "id": "theme-aurora-glass",
       "name": "极光玻璃",
-      "version": "1.0.13",
+      "version": "1.0.14",
       "description": "示例玻璃主题——Aurora UI 极光夜空 + 液态玻璃表面 + 全窗极光背景图（#50.6-#50.11 壳机制第一个真实消费者）",
       "author": {
-        "name": "LinkDesk"
+        "name": "Encaron"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-aurora-glass/v1.0.13/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-aurora-glass/v1.0.14/resources/icon.svg",
       "iconSource": "url",
       "category": "themes",
       "categories": [
         "color-scheme"
       ],
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-aurora-glass/v1.0.13/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-aurora-glass/releases/download/v1.0.13/theme-aurora-glass.linkdesk-plugin",
-      "size": 11680,
-      "publishedAt": "2026-11-22T16:02:12.412Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-aurora-glass/v1.0.14/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-aurora-glass/releases/download/v1.0.14/theme-aurora-glass.linkdesk-plugin",
+      "size": 11591,
+      "publishedAt": "2026-11-22T19:11:52.470Z",
       "versions": [
+        {
+          "version": "1.0.14",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-aurora-glass/releases/download/v1.0.14/theme-aurora-glass.linkdesk-plugin",
+          "publishedAt": "2026-11-22T19:11:52.470Z",
+          "changelog": "- **语义对齐壳 0.2.60「跟随主题也合成表面」**：`glass.opacity` 0.275 → **0.55**（贴合本主题原有 rgba 0.55 的表面观感）；`tint` alpha 0.35 → **0.175** 抵消 tint 盖片变厚——旧壳（≤0.2.59）与新壳（≥0.2.60）观感一致。\n- 旧壳行为：表面 rgba 0.55（colorway 自带 alpha）+ tint 有效 9.6%；新壳行为：表面按 `glass.opacity 0.55` 合成（基色）+ tint 有效 9.6%。自定义模式的表面 alpha 从「0.55×0.275≈0.15」纠正为「0.55」——与跟随主题一致。\n- 表面色保持 rgba 写法（旧壳回退）；无 `glass` 域的主题不受影响。"
+        },
         {
           "version": "1.0.13",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-aurora-glass/releases/download/v1.0.13/theme-aurora-glass.linkdesk-plugin",
@@ -48,8 +54,7 @@
         {
           "version": "1.0.9",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-aurora-glass/releases/download/v1.0.9/theme-aurora-glass.linkdesk-plugin",
-          "publishedAt": "2026-09-30T20:47:15.430Z",
-          "changelog": "- **去掉双语音译名（「我不要双语了」）**：字面量只留中文原文（中文界面显示中文），英文界面由壳过 `t()` 显示本仓字典里的英文。作者把译名写进字面量（`\"薄荷苏打 Mint Soda\"`）时，中文界面会中英混排——这条病只能靠「字面量纯中文 ＋ 译名住字典」治。\n- 配方名与配色名 2 条现在都是纯中文（配色名「极光紫」本来就纯中文，此前它没有英文译名，本轮随判据扩域一起补进本仓字典）。\n- **判据随 SDK 下发**：`@linkdesk/plugin-sdk` → **^0.1.64**——`npm run verify` 第 ⑧ 段的判域**扩到主题数据文件里的名字**（`contributes.themes[].label` ＋ 数据文件 `name`/`colorways[].name`，`@linkdesk/plugin-sdk/own-dict-coverage`）：名字同样「谁的仓谁译文」，双语字面量在旧判据里溜得过去、在新判据里当场红。"
+          "publishedAt": "2026-09-30T20:47:15.430Z"
         },
         {
           "version": "1.0.8",
