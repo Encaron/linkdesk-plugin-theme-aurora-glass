@@ -62,7 +62,11 @@
         "text-on-accent": "#FFFFFF",
         "danger": "#F87171",
         "error": "#F87171",
-        "warning": "#FBBF24"
+        "warning": "#FBBF24",
+        "surface-reading": "rgba(11, 16, 32, 0.62)",
+        "surface-reading-strong": "rgba(11, 16, 32, 0.72)",
+        "surface-media-scrim": "rgba(11, 16, 32, 0.80)",
+        "surface-ink": "#F1F5FF"
       }
     }
   ]
