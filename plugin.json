@@ -8,7 +8,7 @@
     "color-scheme"
   ],
   "description": "示例玻璃主题——Aurora UI 极光夜空 + 液态玻璃表面 + 全窗极光背景图（#50.6-#50.11 壳机制第一个真实消费者）",
-  "author": "LinkDesk",
+  "author": "Encaron",
   "icon": "resources/icon.svg",
   "contributes": {
     "themes": [
