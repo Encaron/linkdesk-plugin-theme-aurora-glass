@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/plugin.schema.json",
   "pluginId": "theme-aurora-glass",
   "name": "极光玻璃",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "category": "themes",
   "categories": [
     "color-scheme"
