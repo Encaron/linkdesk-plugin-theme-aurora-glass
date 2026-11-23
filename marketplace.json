@@ -1,26 +1,36 @@
 {
   "version": "1",
-  "updatedAt": "2026-11-22T19:11:52.470Z",
+  "updatedAt": "2026-11-23T16:42:05.716Z",
   "plugins": [
     {
       "id": "theme-aurora-glass",
       "name": "极光玻璃",
-      "version": "1.0.14",
+      "version": "1.0.16",
       "description": "示例玻璃主题——Aurora UI 极光夜空 + 液态玻璃表面 + 全窗极光背景图（#50.6-#50.11 壳机制第一个真实消费者）",
       "author": {
         "name": "Encaron"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-aurora-glass/v1.0.14/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-aurora-glass/v1.0.16/resources/icon.svg",
       "iconSource": "url",
       "category": "themes",
       "categories": [
         "color-scheme"
       ],
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-aurora-glass/v1.0.14/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-aurora-glass/releases/download/v1.0.14/theme-aurora-glass.linkdesk-plugin",
-      "size": 11591,
-      "publishedAt": "2026-11-22T19:11:52.470Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-aurora-glass/v1.0.16/README.md",
+      "readmeLocales": {
+        "zh": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-aurora-glass/v1.0.16/README.md",
+        "en": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-aurora-glass/v1.0.16/docs/readme/en.md"
+      },
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-aurora-glass/releases/download/v1.0.16/theme-aurora-glass.linkdesk-plugin",
+      "size": 12465,
+      "publishedAt": "2026-11-23T16:42:05.716Z",
       "versions": [
+        {
+          "version": "1.0.16",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-aurora-glass/releases/download/v1.0.16/theme-aurora-glass.linkdesk-plugin",
+          "publishedAt": "2026-11-23T16:42:05.716Z",
+          "changelog": "- **i18n 收口**：命令/设置等 manifest 显示文本补齐英文；宿主按插件命名空间解析显示文本（市场/命令面板/菜单不再自己 t() 插件数据）。\n- **README 多语言**：新增 `docs/readme/en.md`，`plugin.json` 声明 `readme.locales`（zh→README.md，en→docs/readme/en.md）；共享图仍住 `resources/`。"
+        },
         {
           "version": "1.0.14",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-aurora-glass/releases/download/v1.0.14/theme-aurora-glass.linkdesk-plugin",
@@ -48,8 +58,7 @@
         {
           "version": "1.0.10",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-aurora-glass/releases/download/v1.0.10/theme-aurora-glass.linkdesk-plugin",
-          "publishedAt": "2026-09-30T21:59:34.680Z",
-          "changelog": "- **安装包瘦身**：包内更新日志只带最近 5 版（更早的更新记录仍在本插件仓库里）——由 SDK 自动施加，用户无需任何操作。"
+          "publishedAt": "2026-09-30T21:59:34.680Z"
         },
         {
           "version": "1.0.9",
